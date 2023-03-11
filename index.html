@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>SideBAr</title>
+</head>
+
+<body>
+  <div class="navigation">
+    <ul>
+      <li>
+        <a href="https://codepen.io/Jayasai123/pen/QWVaaKv">
+          <span class="icon"><i class="fa-solid fa-house"></i></span>
+          <span class="title">Home</span>
+        </a>
+      </li>
+      <!-- <li>
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="icon">Home</span>
+                </a>
+            </li> -->
+      <li>
+        <a href="https://th.bing.com/th/id/R.5584e71a75bc8aa20d3c0fdd422b604b?rik=jkrQmUWH%2fCoDHA&riu=http%3a%2f%2fmediad.publicbroadcasting.net%2fp%2fnhpr%2ffiles%2fstyles%2fx_large%2fpublic%2f201312%2flaughing.jpg&ehk=jvpeMBwTiFR9oi5cHEQ1QHFZiXC5b5%2fB0Bx0W8tL1bI%3d&risl=&pid=ImgRaw&r=0">
+          <span class="icon"><i class="fa-solid fa-user"></i></span>
+          <span class="title">Profile</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.bing.com/images/search?view=detailV2&ccid=KQHDKaoB&id=165C115709790517AE14216B0E2A5F79DDF468D0&thid=OIP.KQHDKaoB72wAdkz7lD3cBAHaEK&mediaurl=https%3a%2f%2fi.ytimg.com%2fvi%2fVu0RrQeWda4%2fmaxresdefault.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.2901c329aa01ef6c00764cfb943ddc04%3frik%3d0Gj03XlfKg5rIQ%26pid%3dImgRaw%26r%3d0&exph=720&expw=1280&q=kia+dekh+ra+ho&simid=608033663129965811&FORM=IRPRST&ck=5CB692FE00C4689BE14F3F7E7B751CF0&selectedIndex=16">
+          <span class="icon"><i class="fa-solid fa-message"></i></span>
+          <span class="title">Messages</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon"><i class="fa-solid fa-circle-info"></i></span>
+          <span class="title">Help</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon"><i class="fa-solid fa-gear"></i></span>
+          <span class="title">Settings</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon"><i class="fa-solid fa-lock"></i></span>
+          <span class="title">Password</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+          <span class="title">SignOut</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="toggle" onclick="toggleMenu()"></div>
+  <script type="text/javascript">
+    function toggleMenu() {
+      let navigation = document.querySelector('.navigation');
+      let toggle = document.querySelector('.toggle');
+      navigation.classList.toggle('active');
+      toggle.classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>
